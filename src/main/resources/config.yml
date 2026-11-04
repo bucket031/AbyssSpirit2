@@ -1,0 +1,10 @@
+# AbyssSpirit config. Edit, then run /abyss reload.
+small_body:
+  radius: 0.5          # size of the small orb in blocks, 0.2 - 2.0
+big_body:
+  radius: 3.0          # size of the spiral in blocks, 1.5 - 10.0
+  tilt_degrees: 50     # how far the spiral leans from flat, 0 - 90
+  arms: 6              # number of spiral arms, 2 - 12
+  spin_speed: 1.0      # how fast it turns, 0.2 - 4.0 (1.0 = normal)
+speech:
+  ticks_per_letter: 2  # how fast the Abyss "types", 0 - 20 (2 = 10 letters a second, 0 = all at once)
