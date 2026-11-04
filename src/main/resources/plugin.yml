@@ -1,0 +1,14 @@
+name: AbyssSpirit
+version: '${project.version}'
+main: com.example.abyssspirit.AbyssSpirit
+api-version: '1.21'
+description: Turn a player into the Abyss, a hidden spirit with a small orb body and a big spiral body.
+commands:
+  abyss:
+    description: Turn players into the Abyss and switch its bodies
+    usage: /<command> <set|clear|form|list|reload>
+    aliases: [abyssspirit]
+permissions:
+  abyss.admin:
+    description: Turn players into the Abyss, switch anyone's form, list and reload
+    default: op
